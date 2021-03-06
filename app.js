@@ -32,7 +32,9 @@ const Counter = () => {
 const App = () => {
   return (
     <div className="scoreboard">
-      <Header title="My Scoreboard" totalPlayers={1}/>
+      <Header 
+       title="My Scoreboard" 
+       totalPlayers={1}/>
       <Player />
     </div>
   )
